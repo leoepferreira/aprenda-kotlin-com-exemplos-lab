@@ -35,8 +35,8 @@ fun main() {
     println("Nível: ${formacao2.nivel}")
     println("Conteúdos: ${formacao2.conteudos.joinToString()}")
     println("Inscritos: ${formacao2.inscritos.joinToString {it.nome}}")
-	println("\nFormação: ${formacao3.nome}")
-	println("Nível: ${formacao3.nivel}")
-	println("Conteúdos: ${formacao3.conteudos.joinToString()}")
-	println("Inscritos: ${formacao3.inscritos.joinToString {it.nome}}")
+    println("\nFormação: ${formacao3.nome}")
+    println("Nível: ${formacao3.nivel}")
+    println("Conteúdos: ${formacao3.conteudos.joinToString()}")
+    println("Inscritos: ${formacao3.inscritos.joinToString {it.nome}}")
 }
